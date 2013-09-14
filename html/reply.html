@@ -1,0 +1,29 @@
+<html>
+<head>
+</head>
+<header>
+	<style type="text/css">
+	table {
+		border-collapse: collapse;
+			
+	}
+	</style>
+</header>
+<body>
+	Kids<br>
+	<table border="1">
+		<tr><td>Last Name</td><td>First Name</td><td>Attending Service</td><td>Attending Party</td><td>Shirt Size</td></tr>
+		{% for kid in kids %}
+		<tr><td>{{kid.last_name}}</td><td>{{kid.first_name}}</td><td>{{kid.attending_party}}</td></tr>
+		{% endfor %}
+	</table><br>
+	Adults<br>
+	<table border="1">
+		<tr><td>Last Name</td><td>First Name</td><td>Attending Service</td><td>Attending Party</td><td>Shirt Size</td></tr>
+		{% for adult in adults %}
+		<tr><td>{{adult.last_name}}</td><td>{{adult.first_name}}</td><td>{{adult.attending_luncheon}}</td></tr>
+		{% endfor %}
+	</table><br>
+
+</body>
+</html>

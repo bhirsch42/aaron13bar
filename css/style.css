@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'droid_sansregular';
+    src: url('DroidSans-webfont.eot');
+    src: url('DroidSans-webfont.eot?#iefix') format('embedded-opentype'),
+         url('DroidSans-webfont.woff') format('woff'),
+         url('DroidSans-webfont.ttf') format('truetype'),
+         url('DroidSans-webfont.svg#droid_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+a {
+	/*font-weight: bold;*/
+}
+td.left {
+	text-align: right;
+	vertical-align: top;
+}
+div.RSVP {
+	font-size: 30;
+}
+li.topbar{
+	display: inline-block;
+	margin-right: 20px;
+}
+div.error{
+	color: red;
+}
+body {
+	background-color: #26D4DD;
+	color: #30308C;
+	font-family: 'droid_sansregular';
+}
