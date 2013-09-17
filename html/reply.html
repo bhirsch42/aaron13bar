@@ -12,14 +12,14 @@
 <body>
 	Kids<br>
 	<table border="1">
-		<tr><td>Last Name</td><td>First Name</td><td>Attending Service</td><td>Attending Party</td><td>Shirt Size</td></tr>
+		<tr><td>Last Name</td><td>First Name</td><td>Attending Party</td></tr>
 		{% for kid in kids %}
 		<tr><td>{{kid.last_name}}</td><td>{{kid.first_name}}</td><td>{{kid.attending_party}}</td></tr>
 		{% endfor %}
 	</table><br>
 	Adults<br>
 	<table border="1">
-		<tr><td>Last Name</td><td>First Name</td><td>Attending Service</td><td>Attending Party</td><td>Shirt Size</td></tr>
+		<tr><td>Last Name</td><td>First Name</td><td>Attending Luncheon</td></tr>
 		{% for adult in adults %}
 		<tr><td>{{adult.last_name}}</td><td>{{adult.first_name}}</td><td>{{adult.attending_luncheon}}</td></tr>
 		{% endfor %}
